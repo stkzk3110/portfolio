@@ -7,8 +7,9 @@
 </template>
 
 <script>
-import Home from "../components/Home.vue";
-import Editor from "../components/Editor.vue";
+import Home from "../components/Home"
+import Editor from "../components/Editor"
+import PageNotFound from "../components/PageNotFound"
 export default {
   name: "top",
   data() {
@@ -31,7 +32,8 @@ export default {
   },
   components: {
     Home: Home,
-    Editor: Editor
+    Editor: Editor,
+    PageNotFound: PageNotFound
   }
 };
 </script>

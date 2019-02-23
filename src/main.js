@@ -3,7 +3,7 @@ import './scss/style.scss'
 import './scss/custom.scss'
 import Vue from 'vue'
 import BootstrapVue from 'bootstrap-vue'
-import router from './router'
+import router from './router/index'
 import App from './App.vue'
 
 Vue.use(BootstrapVue)

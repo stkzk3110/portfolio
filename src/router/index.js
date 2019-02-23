@@ -1,9 +1,10 @@
 import Vue from "vue";
 import VueRouter from 'vue-router';
-import Top from "./views/Top";
-import Terms from "./views/Terms";
+import Top from "../views/Top";
+import Terms from "../views/Terms";
 
 Vue.use(VueRouter);
+
 const routes = [
   {
     path: "/",
@@ -18,5 +19,6 @@ const routes = [
 ];
 
 export default new VueRouter({
+  mode: 'history',
   routes: routes
 });
