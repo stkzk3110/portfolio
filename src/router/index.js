@@ -1,7 +1,9 @@
 import Vue from "vue"
 import VueRouter from 'vue-router'
-import Top from "../components/Top"
-import Terms from "../components/Terms"
+import Home from "../components/Home"
+import Profile from "../components/Profile"
+import Works from "../components/Works"
+import Contact from "../components/Contact"
 import PageNotFound from "../components/PageNotFound"
 
 Vue.use(VueRouter);
@@ -9,13 +11,23 @@ Vue.use(VueRouter);
 const routes = [
   {
     path: "/",
-    name: "top",
-    component: Top
+    name: "home",
+    component: Home
   },
   {
-    path: "/terms",
-    name: "terms",
-    component: Terms
+    path: "/profile",
+    name: "profile",
+    component: Profile
+  },
+  {
+    path: "/works",
+    name: "works",
+    component: Works
+  },
+  {
+    path: "/contact",
+    name: "contact",
+    component: Contact
   },
   {
     path: "*",
