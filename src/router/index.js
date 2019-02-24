@@ -1,7 +1,8 @@
-import Vue from "vue";
-import VueRouter from 'vue-router';
-import Top from "../views/Top";
-import Terms from "../views/Terms";
+import Vue from "vue"
+import VueRouter from 'vue-router'
+import Top from "../components/Top"
+import Terms from "../components/Terms"
+import PageNotFound from "../components/PageNotFound"
 
 Vue.use(VueRouter);
 
@@ -15,6 +16,11 @@ const routes = [
     path: "/terms",
     name: "terms",
     component: Terms
+  },
+  {
+    path: "*",
+    name: "pagenotfound",
+    component: PageNotFound
   }
 ];
 
