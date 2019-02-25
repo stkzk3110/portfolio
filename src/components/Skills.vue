@@ -1,20 +1,12 @@
 <template>
-<div id="home">
+<div id="skills">
 
-  <div id="main">
-    <div class="background">
-      <h1>Come On</h1>
-    </div>
-  </div>
-  <footer>
-
-  </footer>
 </div>
 </template>
 
 <script>
 export default {
-  name: "home",
+  name: "skills",
   data() {
     return {
     }
@@ -48,9 +40,5 @@ a {
 .nav_default {
   padding-bottom: 2px;
   border-bottom: solid 3px #ffffff;
-}
-.background {
-  background-size: auto;
-  background-image: url("../assets/img/background_image.png")
 }
 </style>

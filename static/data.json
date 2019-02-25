@@ -1,0 +1,26 @@
+[
+    {
+      "slug": "githubpages",
+      "title": "きゅ〜ぶ のプロフィール - GitHub pages",
+      "year": "2019年",
+      "description": "自分についてのURLをまとめたGitHub pages",
+      "text": "自分についてのURLをまとめたGitHub pages",
+      "role": "フロントエンド・バックエンド・コーディング",
+      "urlTitle": "GitHub pages",
+      "url": "//develop.becolomochi.com",
+      "tags": [
+        "個人活動",
+        "Webサイト制作"
+      ],
+      "picture" : [
+        {
+          "id": "1",
+          "path": "http://drive.google.com/uc?export=view&id=0BzPW0pNckTNUc0J1aFNod2FPRUk"
+        },
+        {
+          "id": "2",
+          "path": "http://drive.google.com/uc?export=view&id=0BzPW0pNckTNUWVRJQnBXUTF2RFU"
+        }
+      ]
+    }
+  ]

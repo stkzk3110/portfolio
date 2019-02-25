@@ -1,19 +1,5 @@
 <template>
-<div id="works">
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand text-warning" href="/">CUBE's Portfolio</a>
-    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="ナビゲーションの切替">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <ul class="navbar-nav ml-auto">
-        <router-link tag="li" to="/"><a class="nav-item nav-link text-warning">HOME</a></router-link>
-        <router-link tag="li" to="/profile"><a class="nav-item nav-link text-warning">PROFILE</a></router-link>
-        <router-link tag="li" to="/works"><a class="nav-item nav-link text-warning">WORKS</a></router-link>
-        <router-link tag="li" to="/contact" exact><a class="nav-item nav-link active text-warning"><span class="nav_default">CONTACT</span></a></router-link>
-      </ul>
-    </div>
-  </nav>
+<div id="contact">
 </div>
 </template>
 

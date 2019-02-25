@@ -2,7 +2,7 @@ import Vue from "vue"
 import VueRouter from 'vue-router'
 import Home from "../components/Home"
 import Profile from "../components/Profile"
-import Works from "../components/Works"
+import Skills from "../components/Skills"
 import Contact from "../components/Contact"
 import PageNotFound from "../components/PageNotFound"
 
@@ -20,9 +20,9 @@ const routes = [
     component: Profile
   },
   {
-    path: "/works",
-    name: "works",
-    component: Works
+    path: "/skills",
+    name: "skills",
+    component: Skills
   },
   {
     path: "/contact",

@@ -1,19 +1,39 @@
 <template>
 <div id="profile">
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand text-warning" href="/">CUBE's Portfolio</a>
-    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="ナビゲーションの切替">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <ul class="navbar-nav ml-auto">
-        <router-link tag="li" to="/"><a class="nav-item nav-link text-warning">HOME</a></router-link>
-        <router-link tag="li" to="/profile" exact><a class="nav-item nav-link active text-warning"><span class="nav_default">PROFILE</span></a></router-link>
-        <router-link tag="li" to="/works"><a class="nav-item nav-link text-warning">WORKS</a></router-link>
-        <router-link tag="li" to="/contact"><a class="nav-item nav-link text-warning">CONTACT</a></router-link>
-      </ul>
-    </div>
-  </nav>
+  <div>
+    <section class="profile_section">
+      <div class="container">
+        <h2 class="profile_h2">PROFILE</h2>
+        <p class="text_box">
+          都内にてSE(システムエンジニア)をしてます。<br>
+          2016年4月から新卒枠で地元愛知の独立系IT企業にSEとして入社。<br>
+          仕事の幅を広げる為に、2017年8月末で退職し、上京。<br>
+          2017年11月からSEとして現在の会社へ。<br>
+          現在はweb系開発に興味があり、SI業界からWEB業界に転職するために活動中です。<br>
+        </p>
+        <div class="profile_box">
+          <p class="profile_img flexbox-left">
+            <img src="../assets/img/profile_img.png" alt="">
+          </p>
+          <div class="flexbox-right">
+            <dl class="detail-profile">
+              <dt>Name：</dt>
+              <dd>齋藤 一輝 Saito Kazuki</dd>
+              <dt>Location：</dt>
+              <dd>東京都内</dd>
+              <dt>Github:</dt>
+              <dd></dd>
+              <dt>Twitter:</dt>
+              <dd></dd>
+              <dt>Instagram:</dt>
+              <dd></dd>
+              <dt>Facebook:</dt>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
 </div>
 </template>
 
@@ -50,8 +70,14 @@ li {
 a {
   color: #42b983;
 }
-.nav_default {
-  padding-bottom: 2px;
-  border-bottom: solid 3px #ffffff;
+
+.profile_section {
+  padding: 20px 10px 10px 20px;
+}
+.profile_h2 {
+  margin: 0 0 40px 0;
+}
+.profile_box {
+  display: flex;
 }
 </style>
