@@ -12,22 +12,23 @@
           現在はweb系開発に興味があり、SI業界からWEB業界に転職するために活動中です。<br>
         </p>
         <div class="profile_box">
-          <p class="profile_img flexbox-left">
+          <div class="profile_img flexbox-left">
             <img src="../assets/img/profile_img.png" alt="">
-          </p>
+          </div>
           <div class="flexbox-right">
             <dl class="detail-profile">
-              <dt>Name：</dt>
-              <dd>齋藤 一輝 Saito Kazuki</dd>
-              <dt>Location：</dt>
+              <dt>Name</dt>
+              <dd>齋藤 一輝</dd>
+              <dt>Location</dt>
               <dd>東京都内</dd>
-              <dt>Github:</dt>
-              <dd></dd>
-              <dt>Twitter:</dt>
-              <dd></dd>
-              <dt>Instagram:</dt>
-              <dd></dd>
-              <dt>Facebook:</dt>
+              <dt>Graduate</dt>
+              <dd>名古屋市内</dd>
+              <dt>Age</dt>
+              <dd>25</dd>
+              <dt>Hobby</dt>
+              <dd>プログラミング、旅行、アニメ、読書、食べ歩き</dd>
+              <dt>Ability</dt>
+              <dd>料理、卓球、早寝早起き</dd>
             </dl>
           </div>
         </div>
@@ -79,5 +80,8 @@ a {
 }
 .profile_box {
   display: flex;
+}
+.flexbox-left {
+  margin: 0 100px 0 0;
 }
 </style>
