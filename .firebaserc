@@ -1,5 +1,6 @@
 {
   "projects": {
-    "master": "vue-project-16285"
+    "master": "vue-project-16285",
+    "default": "vue-project-16285"
   }
 }

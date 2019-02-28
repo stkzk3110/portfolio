@@ -3,7 +3,7 @@
   <div>
     <section class="profile_section">
       <div class="container">
-        <h2 class="profile_h2">PROFILE</h2>
+        <h2 class="profile_h2">My Profile</h2>
         <p class="text_box">
           都内にてSE(システムエンジニア)をしてます。<br>
           2016年4月から新卒枠で地元愛知の独立系IT企業にSEとして入社。<br>
@@ -40,7 +40,7 @@
 
 <script>
 export default {
-  name: "profile",
+  name: 'profile',
   data() {
     return {
     }

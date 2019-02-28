@@ -133,7 +133,7 @@
 
 <script>
 export default {
-  name: "skills",
+  name: 'skills',
   data() {
     return {
     }
@@ -165,15 +165,6 @@ a {
   color: #42b983;
 }
 
-.profile_section {
-  padding: 20px 10px 10px 20px;
-}
-.profile_h2 {
-  margin: 0 0 40px 0;
-}
-.profile_box {
-  display: flex;
-}
 .flexbox-left {
   margin: 0 100px 0 0;
 }
