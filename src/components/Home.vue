@@ -1,9 +1,7 @@
 <template>
 <div id="home">
-
   <div id="main">
     <div class="home_title">
-      <h1>Kazuki Saito</h1>
       <img src="../assets/img/chara_icon.png">
     </div>
     <section class="home_section">
@@ -76,6 +74,7 @@ export default {
 
 <style lang="scss">
 #home {
+  margin-top: 90px;
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -95,11 +94,11 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  color: #2c3e50;
 }
 .profile-box {
   padding-bottom: 140px;
-  background-color: #0074bf;
+  background-color: #ffccdd;
 }
 .skill-box {
   padding-bottom: 140px;

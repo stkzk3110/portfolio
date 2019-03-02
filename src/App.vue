@@ -1,12 +1,31 @@
 <template>
   <div id="app">
-    <div class="header-top">
+    <div class="header-outer">
+      <header>
+        <h1 class="site-title">
+          <router-link to="/">cube's portfolio</router-link>
+        </h1>
+      </header>
       <hnav></hnav>
     </div>
     <transition name="fade">
       <router-view>(:data="myData")</router-view>
     </transition>
     <fnav></fnav>
+    <div class="sns-box">
+      <a href="https://twitter.com/fisherman3110se" target="_blank" class="sns-link">
+          <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://github.com/stkzk3110" target="_blank" class="sns-link">
+          <i class="fab fa-github"></i>
+      </a>
+      <a href="https://instagram.com/stkzk_aioaui" target="_blank" class="sns-link">
+          <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+    <footer>
+      <div class="copyright-box">©️ 2019 cube</div>
+    </footer>
   </div>
 </template>
 

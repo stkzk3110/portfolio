@@ -43,7 +43,7 @@
       sendMessage() {
         var form = $('form');
         var submitBtn = form.find('button[type=submit]');
-        if(getElementById('message') === '') {
+        if(document.getElementById('message') === '') {
           alert('メッセージを入力してください');
           return false;
         }
@@ -52,15 +52,16 @@
           dataType: 'jsonp',
           data: form.serialize(),
           beforeSend: function() {
+            console.log('beforeSend');
             return submitBtn.prop('disabled', true);
           },
           complete: function() {
+            console.log('complete');
             return submitBtn.prop('disabled', false);
           },
-          success: function(response) {
-            return console.log(response);
-          },
+          jsonpCallback: 'console.log',
           error: function(response) {
+            console.log('error');
             return console.log(response);
           }
         });
@@ -71,7 +72,7 @@
 
 <style lang="scss">
 #contact {
-  margin-top: 40px;
+  margin-top: 100px;
 }
 h1,
 h2 {
