@@ -20,7 +20,7 @@
           </div>
         </div>
         <div class="common-more-box">
-          <a href="/profile" class="more-link">もっと見る</a>
+          <router-link to="/profile">もっと見る</router-link>
         </div>
       </article>
       <article class="skill-box">
@@ -38,7 +38,7 @@
           </div>
         </div>
         <div class="common-more-box">
-          <a href="/skills" class="more-link">もっと見る</a>
+          <router-link to="/skills">もっと見る</router-link>
         </div>
       </article>
       <article class="contact-box">
@@ -49,7 +49,7 @@
           </div>
         </div>
         <div class="common-more-box">
-          <a href="/contact" class="more-link">お問合わせフォームへ</a>
+          <router-link to="/contact">お問い合わせフォームへ</router-link>
         </div>
       </article>
     </section>
