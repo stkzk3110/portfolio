@@ -2,25 +2,25 @@
 <div id="contact">
   <section class="contact_section">
     <div class="container">
-      <form action="https://script.google.com/macros/s/AKfycbw_dXkx2oASgp4fJKsUeQQnHKVFDmVAVJKZB0QjsQcn3We5MxJX/exec" class="form-box">
+      <form name="contact_form" action="https://script.google.com/macros/s/AKfycbw_dXkx2oASgp4fJKsUeQQnHKVFDmVAVJKZB0QjsQcn3We5MxJX/exec" class="form-box">
         <input name="SPREADSHEET_ID" type="hidden" value="1qMaKeCA5VYCJSm3WFgUK-WZh7b-i0Iuc9qIYEsK7bJg">
         <input name="SHEET_NAME" type="hidden" value="フォームデータ">
         <h2 class="contact_h2">Contact</h2>
         <div class="form-item-box">
-          <label class="control-label">Name</label>
-          <div class="">
-            <input type="text" class="form-control" name="your-name" placeholder="Name">
+          <label class="control-label">Name<span class="label-required">必須</span></label>
+          <div class="contact_form_input">
+            <input type="text" class="form-control" name="your-name" placeholder="Name" required id="name">
           </div>
         </div>
         <div class="form-item-box">
-          <label class="control-label">Email</label>
-          <div class="">
-            <input type="email" class="form-control" name="your-email" placeholder="example@email.com">
+          <label class="control-label">Email<span class="label-required">必須</span></label>
+          <div class="contact_form_input">
+            <input type="email" class="form-control" name="your-email" placeholder="example@email.com" required id="email">
           </div>
         </div>
         <div class="form-item-box">
           <label class="control-label">Message<span class="label-required">必須</span></label>
-          <div class="">
+          <div class="contact_from_input">
             <textarea class="form-control" name="your-message" placeholder="Message" rows="8" required id="message"></textarea>
           </div>
         </div>
@@ -38,12 +38,20 @@
 <script>
   export default {
     title: 'Contact',
-    description: 'べこ（becolomochi）へのお問い合わせページ',
+    description: 'きゅ〜ぶ（cube）へのお問い合わせページ',
     methods: {
       sendMessage() {
         var form = $('form');
         var submitBtn = form.find('button[type=submit]');
-        if(document.getElementById('message') === '') {
+        if(document.getElementById('name').value === '') {
+          alert('名前を入力してください');
+          return false;
+        }
+        if(document.getElementById('email').value === '') {
+          alert('メールアドレスを入力してください');
+          return false;
+        }
+        if(document.getElementById('message').value === '') {
           alert('メッセージを入力してください');
           return false;
         }
