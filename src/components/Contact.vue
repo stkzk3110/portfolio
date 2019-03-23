@@ -6,6 +6,10 @@
         <input name="SPREADSHEET_ID" type="hidden" value="1qMaKeCA5VYCJSm3WFgUK-WZh7b-i0Iuc9qIYEsK7bJg">
         <input name="SHEET_NAME" type="hidden" value="フォームデータ">
         <h2 class="contact_h2">Contact</h2>
+        <p class="contact_description">
+          ※ TwitterのDMの方も解放しておりますのでそちらからのお問い合わせも受け付けております。<br>
+          フッターのTwitterアイコンから直接飛べるためそちらからご利用ください。
+        </p>
         <div class="form-item-box">
           <label class="control-label">Name<span class="label-required">必須</span></label>
           <div class="contact_form_input">
@@ -65,6 +69,7 @@
           },
           complete: function() {
             console.log('complete');
+            window.location.href = '/contact/completed';
             return submitBtn.prop('disabled', false);
           },
           jsonpCallback: 'console.log',
@@ -133,6 +138,9 @@ article {
   padding-left: 1em;
 }
 .contact_h2 {
+  margin-bottom :10px;
+}
+.contact_description {
   margin-bottom :60px;
 }
 </style>

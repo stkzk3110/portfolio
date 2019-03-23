@@ -4,6 +4,7 @@ import Home from "../components/Home"
 import Profile from "../components/Profile"
 import Skills from "../components/Skills"
 import Contact from "../components/Contact"
+import ContactCompleted from "../components/ContactCompleted"
 import PageNotFound from "../components/PageNotFound"
 
 Vue.use(VueRouter);
@@ -28,6 +29,11 @@ const routes = [
     path: "/contact",
     name: "contact",
     component: Contact
+  },
+  {
+    path: "/contact/completed",
+    name: "contact_completed",
+    component: ContactCompleted
   },
   {
     path: "*",
