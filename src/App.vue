@@ -14,13 +14,19 @@
     <fnav></fnav>
     <div class="sns-box">
       <a href="https://twitter.com/fisherman3110se" target="_blank" class="sns-link">
-          <i class="fab fa-twitter"></i>
+          <i class="fab twitter-icon"></i>
       </a>
       <a href="https://github.com/stkzk3110" target="_blank" class="sns-link">
-          <i class="fab fa-github"></i>
+          <i class="fab github-icon"></i>
       </a>
       <a href="https://instagram.com/stkzk_aioaui" target="_blank" class="sns-link">
-          <i class="fab fa-instagram"></i>
+          <i class="fab instagram-icon"></i>
+      </a>
+      <a href="https://qiita.com/fisherman3110se" target="_blank" class="sns-link">
+          <i class="fab qiita-icon"></i>
+      </a>
+      <a href="https://note.mu/fisherman0825" target="_blank" class="sns-link">
+          <i class="fab note-icon"></i>
       </a>
     </div>
     <footer>

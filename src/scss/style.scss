@@ -121,6 +121,52 @@ $b-large-min: $b-medium-max + 1;
       color: #444;
     }
   }
+  .twitter-icon::before {
+    content: "";
+    background-image: url("../assets/img/Twitter_Social_Icon_Square_Color.png");
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    background-size: contain;
+    vertical-align: middle;
+  }
+  .github-icon::before {
+    content: "";
+    background-image: url("../assets/img/GitHub-Mark-64px.png");
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    background-size: contain;
+    vertical-align: middle;
+  }
+  .instagram-icon::before {
+    content: "";
+    background-image: url("../assets/img/glyph-logo_May2016.png");
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    background-size: contain;
+    vertical-align: middle;
+  }
+  .qiita-icon::before {
+    content: "";
+    background-image: url("../assets/img/qiita-favicon.png");
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    background-size: contain;
+    vertical-align: middle;
+  }
+
+  .note-icon::before {
+    content: "";
+    background-image: url("../assets/img/note.png");
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    background-size: contain;
+    vertical-align: middle;
+  }
 
   .common-more-box {
     text-align: center;
